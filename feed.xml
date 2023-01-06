@@ -1,17 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://blog.cmoo.rs/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.cmoo.rs/" rel="alternate" type="text/html" /><updated>2023-01-06T07:39:42-08:00</updated><id>https://blog.cmoo.rs/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="https://blog.cmoo.rs/jekyll/update/2023/01/06/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-01-06T07:30:18-08:00</published><updated>2023-01-06T07:30:18-08:00</updated><id>https://blog.cmoo.rs/jekyll/update/2023/01/06/welcome-to-jekyll</id><content type="html" xml:base="https://blog.cmoo.rs/jekyll/update/2023/01/06/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://blog.cmoo.rs/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.cmoo.rs/" rel="alternate" type="text/html" /><updated>2023-01-06T10:04:43-08:00</updated><id>https://blog.cmoo.rs/feed.xml</id><title type="html">blog.cmoo.rs</title><subtitle>I might post something other than school work here.</subtitle><entry><title type="html">Web Design Technologies - Module #1 Assignment/Blog</title><link href="https://blog.cmoo.rs/jekyll/update/2023/01/06/web-design-technologies-assignment-1.html" rel="alternate" type="text/html" title="Web Design Technologies - Module #1 Assignment/Blog" /><published>2023-01-06T07:30:18-08:00</published><updated>2023-01-06T07:30:18-08:00</updated><id>https://blog.cmoo.rs/jekyll/update/2023/01/06/web-design-technologies-assignment-1</id><content type="html" xml:base="https://blog.cmoo.rs/jekyll/update/2023/01/06/web-design-technologies-assignment-1.html">&lt;h3&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Last semester I had taken a course in Web Page Design &amp;amp; Management, which covered the basics of creating a static webpage using HTML, CSS, and JavaScript. For the Spring semester of 2023 at USF, I’m taking a course in web-design technologies. Within this new course I’m looking forward to creating dynamic websites, using technologies such as PHP to render websites on the server-side before sending them to users.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;h3&gt;Lessons Learned&lt;/h3&gt;
+&lt;h4&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;Within the first module we covered some of the basics of web design, such as its history and the components that go into designing a web page. Some notable componenets include:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;HTML Documents&lt;/li&gt;
+  &lt;li&gt;HTML Tags / Elements
+    &lt;ul&gt;
+      &lt;li&gt;Formatting Tags&lt;/li&gt;
+      &lt;li&gt;Interactive Tags&lt;/li&gt;
+      &lt;li&gt;Empty Elements&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;As well asexamples some of the most high-level HTML tags:&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/common-html-tags.png&quot; alt=&quot;Common HTML Elements&quot; /&gt;&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Which were used to create the following HTML:&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Toner Cartridge Sales&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Toner Cartridge Sales&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;hr&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Lexmark Toner Cartridges&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;lexmark_logo.gif&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;&lt;/span&gt;Model #&lt;span class=&quot;nt&quot;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;:LEX 1382100&lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Compatibility&lt;span class=&quot;nt&quot;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;: Optra 4049/3112/3116&lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Price&lt;span class=&quot;nt&quot;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;: $189.99&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;b&amp;gt;&lt;/span&gt;Model #&lt;span class=&quot;nt&quot;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;:LEX 1380520&lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Compatibility&lt;span class=&quot;nt&quot;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;:Lexmark 4019/4028/4029&lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;b&amp;gt;&lt;/span&gt;Price&lt;span class=&quot;nt&quot;&gt;&amp;lt;/b&amp;gt;&lt;/span&gt;:$209.00&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4&gt;Web Communication Protocols&lt;/h4&gt;
+&lt;p&gt;Every web page on the internet is identified by a unique address known as a URL. A URL (Uniform Resource Locator) consists of many parts. For example, take the following URL:&lt;/p&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://www.google.com/search?q=Web%20Design&quot;&gt;https://www.google.com/search?q=Web Design&lt;/a&gt;&lt;/center&gt;
+
+&lt;p&gt;The &lt;em&gt;protocol&lt;/em&gt; usesd to transfer the page contents can be seen at the start, in this case we are using &lt;b&gt;https://&lt;/b&gt;. HTTPS is the secure version of the HyperText Transfer Protocol (HTTP).&lt;/p&gt;
+
+&lt;p&gt;Next the &lt;em&gt;subdomain&lt;/em&gt; is present, in the case of Google’s search engine the default subdomain is &lt;strong&gt;www.&lt;/strong&gt;, which stands for “World Wide Web”. While a subdomain is not nessecary to access a website, because the world-wide-web was invented after the internet, some websites used a “WWW” prefix to prevent confusion between different internet technologies.&lt;sup&gt;&lt;a href=&quot;https://www.quora.com/Why-does-every-website-address-start-with-www&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; Different subdomains can be used to denote different information systems under the same domain.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;domain&lt;/em&gt; is defined as “google.com”, this denotes a simple, human-readable and rememberable string that allows users to visit the site. It also tells the web-browser the server to connect to in order to retrieve the requested content.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;resource&lt;/em&gt; we are attempting to access on Google’s server is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/search&lt;/code&gt; page. This page is dynamically generated and returns results according to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;q=Web Design&lt;/code&gt; &lt;em&gt;query&lt;/em&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h4&gt;Communication&lt;/h4&gt;
+&lt;p&gt;Once the browser knows the sub-domain and domain the user would like to request a resource from, it contacts a Domain Name System (DNS) server to resolve an IP address the computer can communicate to. Depending on the protocol used, the browser will connect to the webserver on port 80 (HTTP) or 443 (HTTPS) over TCP, a.k.a the Transmission Control Protocol.&lt;/p&gt;
+
+&lt;p&gt;The browser sends a payload resembling the following:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;GET /search?q=Web%20Design HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Host: www.google.com
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;i&gt;Note that with HTTPS this data would be encrypted&lt;/i&gt;&lt;/small&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Which gives Google the relevant information to serve you the correct page, and format it properly for your browser as nessecary. Google uses this information on it’s &lt;em&gt;backend&lt;/em&gt; to query it’s database for information, and then responds to your browser so resulting information is shown on the &lt;em&gt;frontend&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4&gt;Server Side Rendering vs Client Side Rendering&lt;/h4&gt;
+
+&lt;p&gt;In order to display the relevant data to the user, it must be converted from it’s raw form into something human-readable. To do this, the backend can use a programming language such as Perl or PHP to render &lt;em&gt;HTML&lt;/em&gt; which the browser can then display, or, the browser can request the raw data and render it locally using &lt;em&gt;client-side scripting&lt;/em&gt; known as &lt;em&gt;JavaScript&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This arcitecture can be broken down into 3 tiers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Client Tier
+    &lt;ul&gt;
+      &lt;li&gt;Handles user interface display (the Web Browser) and sends data to the processing teir&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Processing Tier
+    &lt;ul&gt;
+      &lt;li&gt;Handles interaction between the Client Tier and Data Storage Tier&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Data Storage Tier
+    &lt;ul&gt;
+      &lt;li&gt;Stores the data in a database and can be queried by the processing tier&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With server-side rendering the processing tier and data-storage tier are hosted on the same server, however, with client-side rendering, the client tier and processing tier are processed within the browser.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4&gt;PHP&lt;/h4&gt;
+&lt;p&gt;One of the most popular server-side scripting languages is &lt;em&gt;PHP&lt;/em&gt;, PHP is a HyperText Preprocessor that runs on the server hosting a webpage. While it’s typically faster than client-side rendering, once the page has been fully loaded, the resource is unable to manipulate the webpage as is possible with Javascript.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4&gt;MySQL&lt;/h4&gt;
+
+&lt;p&gt;MySQL is a structured relational database management system (RDBMS). Due to its integrations with PHP and Perl it’s often a go-to choice for storing data within an information system. While MySQL is paid software, an open-source fork of MySQL, MariaDB, is available for free public and commercial use.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Assigment&lt;/h3&gt;
+
+&lt;p&gt;For the first assigment in my LIS 4365 Web Design Technologies class, we are creating an account with &lt;a href=&quot;https://infinityfree.net/&quot;&gt;InfinityFree&lt;/a&gt;. Infinityfree is described as a platform that “… offers free web hosting with impressive marketing of unlimited disk space, bandwidth, and domain hosting.&lt;sup&gt;&lt;a href=&quot;https://digital.com/best-web-hosting/is-it-really-free/&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;”&lt;/p&gt;
+
+&lt;p&gt;Unforunately, when I attempted to create an account using my school email, the verification link didn’t seem to come through. However, I know that I’ve used this service in the past, and sure enough after taking a few guesses at my username, my personal email was still linked to an account.&lt;/p&gt;
+
+&lt;p&gt;I was able to create my new website on InfinityFree &lt;a href=&quot;http://cmusf-lis4365.epizy.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Introduction Last semester I had taken a course in Web Page Design &amp;amp; Management, which covered the basics of creating a static webpage using HTML, CSS, and JavaScript. For the Spring semester of 2023 at USF, I’m taking a course in web-design technologies. Within this new course I’m looking forward to creating dynamic websites, using technologies such as PHP to render websites on the server-side before sending them to users. Lessons Learned Web Design Within the first module we covered some of the basics of web design, such as its history and the components that go into designing a web page. Some notable componenets include:</summary></entry></feed>

@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://blog.cmoo.rs/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.cmoo.rs/" rel="alternate" type="text/html" /><updated>2023-01-22T05:45:16-08:00</updated><id>https://blog.cmoo.rs/feed.xml</id><title type="html">blog.cmoo.rs</title><subtitle>I might post something other than school work here.</subtitle><entry><title type="html">Web Design Technologies - Module #2 Assignment/Blog</title><link href="https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-2.html" rel="alternate" type="text/html" title="Web Design Technologies - Module #2 Assignment/Blog" /><published>2023-01-19T11:45:00-08:00</published><updated>2023-01-19T11:45:00-08:00</updated><id>https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-2</id><content type="html" xml:base="https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-2.html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://blog.cmoo.rs/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.cmoo.rs/" rel="alternate" type="text/html" /><updated>2023-01-29T07:19:34-08:00</updated><id>https://blog.cmoo.rs/feed.xml</id><title type="html">blog.cmoo.rs</title><subtitle>I might post something other than school work here.</subtitle><entry><title type="html">Web Design Technologies - Module #3 Blog</title><link href="https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-3.html" rel="alternate" type="text/html" title="Web Design Technologies - Module #3 Blog" /><published>2023-01-19T11:45:00-08:00</published><updated>2023-01-19T11:45:00-08:00</updated><id>https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-3</id><content type="html" xml:base="https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-3.html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;In module 3 we reviewed CSS, went deeper into how JavaScript works, and covered how to properly create and optimize graphics for websites. We also covered the types of image file formats and their drawbacks/upsides.&lt;/p&gt;
+
+&lt;h3 id=&quot;key-terms&quot;&gt;Key Terms&lt;/h3&gt;
+&lt;p&gt;A few key terms to know from this module are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Resolution: The number of pixels within a bitmap image&lt;/li&gt;
+  &lt;li&gt;Rasterization: The covnersion of vector images into bitmap images&lt;/li&gt;
+  &lt;li&gt;Compression: The process of compressing an image to a smaller file-size
+    &lt;ul&gt;
+      &lt;li&gt;Lossless Compression: The image doesn’t loose any detail after being compressed&lt;/li&gt;
+      &lt;li&gt;Lossy Compression: The image may loose some detail after being compressed&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bitmap-vs-vector-images&quot;&gt;Bitmap vs Vector Images&lt;/h3&gt;
+&lt;p&gt;There are two major distinctions between image formats, &lt;em&gt;bitmap&lt;/em&gt; and &lt;em&gt;vector&lt;/em&gt; images. Bitmap images (such as JPEG, PNG, or GIF) are maps of the individual pixels that make up na image, while vector images (such as SVG and EPS) are defined by mathematical equations that come together to make up an image.&lt;/p&gt;
+
+&lt;p&gt;Bitmap images are prefered for images of real-life or complex objects, such as a cat or a sweater. A vector image would be prefered for something more simple, such as a logo or a signature. Vector images are able to scale to any size, howevet bitmap images become more and more pixelated as you zoom in.&lt;/p&gt;
+
+&lt;p&gt;While it’s possible to edit vector images in Photoshop, the prefered tool of choice is Adobe Illustrator. As stated in the course, Photoshop is used for retouching, image editing, color painting, and graphic design using images and pixels, while Adobe Illustrator is used for drawings with points, lines, and infills.&lt;/p&gt;
+
+&lt;h3 id=&quot;assignment&quot;&gt;Assignment&lt;/h3&gt;
+&lt;p&gt;The first part of this assignment covered a simple webpage which uses JavaScript to adds two numbers together. The variables and functions have been annotated with comments to explain what they do.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Defines an element to hold thhe final total --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;demo&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Tells the browser there is JavaScript code to execute --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Assign the first price to add together to a variable called price1&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;price1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Asssign the second price to add together to a variable called price2&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;price2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Add the two prices together and assign the result to a variable called total&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;total&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;price1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;price2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Special identifier in JavaScript that refers to the HTML document&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Get the element with the ID &quot;demo&quot;, which was the first and only element defined earlier&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;The total is: &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;total&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Set the text of the element to &quot;The total is: &quot; and the value of the total variable&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;For the assignment I will be creating an image using Adobe Photoshop, and comparing the different output formats for web use.&lt;/p&gt;
+
+&lt;p&gt;It appears Photoshop includes presets for web images, so I’m going to start with the &lt;em&gt;“Web Most Common”&lt;/em&gt; preset at a resolution of 1366 x 768 px at 72 Pixels Per Inch (PPI).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/photoshop-web-presets.png&quot; style=&quot;padding: 10px&quot; alt=&quot;Photoshop web presets&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I changed the background contents to “Transparent” to make sure I can test the different file formats that do and don’t support transparency.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/photoshop-transparrent-image.png&quot; style=&quot;padding: 10px&quot; alt=&quot;Photoshhop transparent background option selected&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was then greeted with an empty Artboard I could use to start editing my image. For this assignment I’m going to edit a picture of my cat onto &lt;a href=&quot;https://www.flickr.com/photos/giuseppemilo/37857351846/&quot;&gt;a picture of the Caltun River&lt;/a&gt; in Romania, taken by &lt;a href=&quot;https://www.flickr.com/photos/giuseppemilo/&quot;&gt;Giuseppe Milo&lt;/a&gt; under the Creative Commons Attribution 2.0 Generic license.&lt;/p&gt;
+
+&lt;p&gt;Here’s a copy of the image I’m using:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/caltun-river-original.jpg&quot; style=&quot;padding: 10px&quot; alt=&quot;The original image of the Caltun River&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some basic information about the image is available:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Resolution: 2000 x 1125 px
+File Size: 1246 kB
+File Format: JPEG
+Transparency: No
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;I then added my cat to the image, and saved it as a JPG:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/el_gato_discovers_the_beauties_of_romania.jpg&quot; style=&quot;padding: 10px&quot; alt=&quot;The image of the Caltun River with my cat added, saved as JPEG&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Using the default export settings, the image is now:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Resolution: 1366 x 768 px
+File Size: 605 kB
+File Format: JPEG
+Transparency: No
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;I then saved the image as a PNG:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/el_gato_discovers_the_beauties_of_romania.png&quot; style=&quot;padding: 10px&quot; alt=&quot;The image of the Caltun River with my cat added, saved as a PNG&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Resolution: 1366 x 768 px
+File Size: 2.7 MB
+File Format: PNG
+Transparency: Yes
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;And finally, I saved the image as a GIF:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/el_gato_discovers_the_beauties_of_romania.gif&quot; style=&quot;padding: 10px&quot; alt=&quot;The image of the Caltun River with my cat added, saved as a GIF&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Resolution: 1366 x 768 px
+File Size: 788 kB
+File Format: GIF
+Transparency: Yes
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;script&gt;
+function changeBg() {
+  if (document.body.style.backgroundColor === &quot;black&quot;) {
+    // Set the background color to black
+    document.body.style.backgroundColor = &quot;white&quot;;
+    // Set the text color to white
+    document.body.style.color = &quot;black&quot;;
+  } else {
+    // Set the background color to white
+    document.body.style.backgroundColor = &quot;black&quot;;
+    // Set the text color to black
+    document.body.style.color = &quot;white&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;As you can see, the PNG file is much larger than the ones exported as JPEG and GIF, this is because PNG does not support lossy compression and the image is that of high complexity. While the GIF file is slightly bigger than the JPEG by 183 kB, it supports transparency and is therefore a better choice for this image (as the sky has been photoshopped out of the image). Due to this blog having a white background by default it isn’t immediately apparent that the JPG doesn’t support transparency, however, if you were to click &lt;button onclick=&quot;changeBg()&quot;&gt;this&lt;/button&gt; to set the background to black, you can see that the JPG has a white background, while the PNG and GIF have a transparent background.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Introduction In module 3 we reviewed CSS, went deeper into how JavaScript works, and covered how to properly create and optimize graphics for websites. We also covered the types of image file formats and their drawbacks/upsides.</summary></entry><entry><title type="html">Web Design Technologies - Module #2 Assignment/Blog</title><link href="https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-2.html" rel="alternate" type="text/html" title="Web Design Technologies - Module #2 Assignment/Blog" /><published>2023-01-19T11:45:00-08:00</published><updated>2023-01-19T11:45:00-08:00</updated><id>https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-2</id><content type="html" xml:base="https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-2.html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;In this module we covered the basics of HTML, CSS, and JavaScript, the resources we can used to find to debug and style our websites, and some code editors we can use to edit the sites.&lt;/p&gt;
 
 &lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Web Design Technologies - Module #4 Blog</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Web Design Technologies - Module #4 Blog" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Introduction In module 4 we covered conditionals, regex, arrays, and ways to interact with the user in JavaScript. We also went deeper into Photoshop, and covered how to use the “Export for Web” feature to create optimized images for the web." />
+<meta property="og:description" content="Introduction In module 4 we covered conditionals, regex, arrays, and ways to interact with the user in JavaScript. We also went deeper into Photoshop, and covered how to use the “Export for Web” feature to create optimized images for the web." />
+<link rel="canonical" href="https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-4.html" />
+<meta property="og:url" content="https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-4.html" />
+<meta property="og:site_name" content="blog.cmoo.rs" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-01-19T11:45:00-08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Web Design Technologies - Module #4 Blog" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-4.html","description":"Introduction In module 4 we covered conditionals, regex, arrays, and ways to interact with the user in JavaScript. We also went deeper into Photoshop, and covered how to use the “Export for Web” feature to create optimized images for the web.","headline":"Web Design Technologies - Module #4 Blog","dateModified":"2023-01-19T11:45:00-08:00","datePublished":"2023-01-19T11:45:00-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.cmoo.rs/jekyll/update/2023/01/19/web-design-technologies-assignment-4.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="https://blog.cmoo.rs/feed.xml" title="blog.cmoo.rs" /><link rel="shortcut icon" type="image/x-icon" href="" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/"></a><article>
+  <p class="post-meta">
+    <time datetime="2023-01-19 11:45:00 -0800">2023-01-19 11:45:00 -0800</time>
+  </p>
+  
+  <h1>Web Design Technologies - Module #4 Blog</h1>
+
+  <h3 id="introduction">Introduction</h3>
+<p>In module 4 we covered conditionals, regex, arrays, and ways to interact with the user in JavaScript. We also went deeper into Photoshop, and covered how to use the “Export for Web” feature to create optimized images for the web.</p>
+
+<h3 id="conditionals">Conditionals</h3>
+<p>In JavaScript conditionals are used to control the flow of code execution. They are used to check whether conditions are true or false and execute code based on the output. Within JavaScript, the most popular conditionals are <code class="language-plaintext highlighter-rouge">if</code>, <code class="language-plaintext highlighter-rouge">else if</code>, and <code class="language-plaintext highlighter-rouge">else</code>.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="nx">condition</span><span class="p">)</span> <span class="p">{</span>
+  <span class="c1">// Code to execute if condition is true</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">otherCondition</span><span class="p">)</span> <span class="p">{</span>
+  <span class="c1">// Code to execute if condition is true</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+  <span class="c1">// Code to execute if all conditions are false</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="regular-expressions-regex">Regular Expressions (Regex)</h3>
+<p>Regular expressions can be used to match patterns on strings. While not specific to JavaScript, they are heavily integrated into the language. Regex can be used to validate user input, extract information from text, or replace text within a string.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Expression to match phone numbers in the format ###-###-####</span>
+<span class="kd">var</span> <span class="nx">phoneRegex</span> <span class="o">=</span> <span class="sr">/^</span><span class="se">\d{3}</span><span class="sr">-</span><span class="se">\d{3}</span><span class="sr">-</span><span class="se">\d{4}</span><span class="sr">$/</span><span class="p">;</span>
+
+<span class="c1">// Expression to match email addresses</span>
+<span class="kd">var</span> <span class="nx">emailRegex</span> <span class="o">=</span> <span class="sr">/^</span><span class="se">([</span><span class="sr">a-zA-Z0-9_</span><span class="se">\-\.]</span><span class="sr">+</span><span class="se">)</span><span class="sr">@</span><span class="se">((\[[</span><span class="sr">0-9</span><span class="se">]{1,3}\.[</span><span class="sr">0-9</span><span class="se">]{1,3}\.[</span><span class="sr">0-9</span><span class="se">]{1,3}\.)</span><span class="sr">|</span><span class="se">(([</span><span class="sr">a-zA-Z0-9</span><span class="se">\-]</span><span class="sr">+</span><span class="se">\.)</span><span class="sr">+</span><span class="se">))([</span><span class="sr">a-zA-Z</span><span class="se">]{2,4}</span><span class="sr">|</span><span class="se">[</span><span class="sr">0-9</span><span class="se">]{1,3})(\]?)</span><span class="sr">$/</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">input</span> <span class="o">=</span> <span class="nx">prompt</span><span class="p">(</span><span class="dl">"</span><span class="s2">Enter your phone number or email address</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nx">phoneRegex</span><span class="p">.</span><span class="nx">test</span><span class="p">(</span><span class="nx">input</span><span class="p">))</span> <span class="p">{</span>
+  <span class="nx">alert</span><span class="p">(</span><span class="dl">"</span><span class="s2">You entered a valid phone number</span><span class="dl">"</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">emailRegex</span><span class="p">.</span><span class="nx">test</span><span class="p">(</span><span class="nx">input</span><span class="p">))</span> <span class="p">{</span>
+  <span class="nx">alert</span><span class="p">(</span><span class="dl">"</span><span class="s2">You entered a valid email address</span><span class="dl">"</span><span class="p">);</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+  <span class="nx">alert</span><span class="p">(</span><span class="dl">"</span><span class="s2">You have not entered either a phone number or an email address</span><span class="dl">"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<script>
+function testValidateInput() {
+  const input = prompt("Enter some text: ")
+  const phoneRegex = /^\d{3}-\d{3}-\d{4}$/;
+  const emailRegex = /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+  if (phoneRegex.test(input)) {
+    alert("You entered a valid phone number");
+  } else if (emailRegex.test(input)) {
+    alert("You entered a valid email address");
+  } else {
+    alert("You have not entered either a phone number or an email address");
+  }
+}
+</script>
+
+<p>You can test the regex expressions above by clicking the button below:
+<button onclick="testValidateInput()">Test Validate Input</button></p>
+
+<h3 id="arrays">Arrays</h3>
+<p>In JavaScript, arrays are used to store lists of data. They can be used to store numbers, strings, objects, or even other arrays. Arrays can be accessed by their “index”, which denotes the position of an element. The first element starts at 0, the second is at index 1, and so on.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Create an array of numbers</span>
+<span class="kd">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">];</span>
+
+<span class="c1">// Create an array of strings</span>
+<span class="kd">const</span> <span class="nx">words</span> <span class="o">=</span> <span class="p">[</span><span class="dl">"</span><span class="s2">First</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Second</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">Third</span><span class="dl">"</span><span class="p">];</span>
+
+<span class="c1">// Create an array of objects</span>
+<span class="kd">const</span> <span class="nx">objects</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Web</span><span class="dl">"</span><span class="p">,</span> <span class="na">value</span><span class="p">:</span> <span class="mi">1</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Design</span><span class="dl">"</span><span class="p">,</span> <span class="na">value</span><span class="p">:</span> <span class="mi">2</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="na">name</span><span class="p">:</span> <span class="dl">"</span><span class="s2">Technologies</span><span class="dl">"</span><span class="p">,</span> <span class="na">value</span><span class="p">:</span> <span class="mi">3</span> <span class="p">}</span>
+<span class="p">];</span>
+
+<span class="c1">// Create an array of arrays (also known as a 2D array)</span>
+<span class="kd">const</span> <span class="nx">arrayOfArrays</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="nx">numbers</span><span class="p">,</span>
+  <span class="nx">words</span><span class="p">,</span>
+  <span class="nx">objects</span>
+<span class="p">]</span>
+</code></pre></div></div>
+
+<h3 id="user-interaction">User Interaction</h3>
+<p>JavaScript provides multiple methods to gather information and display it to users. The built-in methods for gathering data are <code class="language-plaintext highlighter-rouge">prompt()</code> and <code class="language-plaintext highlighter-rouge">confirm()</code>. The built-in method to display data is <code class="language-plaintext highlighter-rouge">alert()</code>. You can also create your own custom prompts and alerts using HTML and CSS with the DOM.</p>
+
+<p>HTML Code:</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Please enter your name: <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"nameInput"</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"greeting"</span><span class="nt">&gt;&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Get the user's name</span>
+<span class="kd">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="nx">prompt</span><span class="p">(</span><span class="dl">"</span><span class="s2">What is your name?</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="c1">// Return a greeting to the user</span>
+<span class="nx">alert</span><span class="p">(</span><span class="dl">"</span><span class="s2">Hello </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">name</span> <span class="o">+</span> <span class="dl">"</span><span class="s2">!</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="c1">// Use the DOM to greet the user</span>
+<span class="kd">const</span> <span class="nx">nameInputElement</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">nameInput</span><span class="dl">"</span><span class="p">);</span>
+<span class="kd">const</span> <span class="nx">greetingElement</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">greeting</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="nx">nameInputElement</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="s2">`Hello </span><span class="p">${</span><span class="nx">nameInputElement</span><span class="p">.</span><span class="nx">value</span><span class="p">}</span><span class="s2">!`</span><span class="p">;</span>
+</code></pre></div></div>
+
+<h3 id="photoshop">Photoshop</h3>
+<p>In Photoshop we covered how to use the “Export for Web” feature to create images optimized for hosting on websites.</p>
+
+<p>Photoshop offers a few presets for exporting images in this mode, they vary from formats like JPEG, PNG, and GIF, to different levels of compression and color depth.</p>
+
+<p>The “Export for Web” feature also allows you to customize your output file, including attribtues like the file format, dithering type, color depth, and level of compression. If applicable for the selected file format, it also lets you toggle the transparency of the image.</p>
+
+<p><img src="/assets/sfw1.png" alt="Photoshop Export for Web" /></p>
+
+<p>For the image I chose, I found that the JPEG-Medium format presented the best size to quality ratio. The original image was 1.07 MB, after re-sizing and using the the JPEG-Medium preset, the export was reduced to 63.2 KB.</p>
+
+<h3 id="assignment">Assignment</h3>
+<p>For my assignment I chose to determine if the screen size was large enough to properly display content on the page. If the screen size was smaller than 500px, the site would warn the user that not all content may display properly, otherwise the user is told that their screen size is adequate.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"target"</span><span class="nt">&gt;&lt;/p&gt;</span>
+
+<span class="nt">&lt;script&gt;</span>
+<span class="c1">// Element that tells the user if their screen size is large enough</span>
+<span class="kd">var</span> <span class="nx">target</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">target</span><span class="dl">"</span><span class="p">);</span>
+<span class="c1">// Compare this to 500px to determine if the screen is large enough</span>
+<span class="k">if</span> <span class="p">(</span><span class="nx">screen</span><span class="p">.</span><span class="nx">width</span> <span class="o">&lt;</span> <span class="mi">500</span><span class="p">)</span> <span class="p">{</span>
+  <span class="c1">// Set the text of the target element which the user sees</span>
+  <span class="nx">target</span><span class="p">.</span><span class="nx">innerText</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">You are currently using a small window size, some elements may not load properly</span><span class="dl">"</span><span class="p">;</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+  <span class="nx">target</span><span class="p">.</span><span class="nx">innerText</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">You are using an adequate window size, all elements should display properly.</span><span class="dl">"</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+</article>
+      </div>
+    </main>
+  </body>
+</html>
